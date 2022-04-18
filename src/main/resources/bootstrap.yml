@@ -4,6 +4,6 @@ spring:
   cloud:
     config:
       label: main
-      uri: http://localhost:8081
-      username: root
-      password: 1234
+      uri: ${CONFIG_SERVER_URI}
+      username: ${SECURITY_USERNAME}
+      password: ${SECURITY_PASSWORD}
