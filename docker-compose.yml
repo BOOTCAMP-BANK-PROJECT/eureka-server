@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: samuel14luis/spring-eureka-server:0.0.1-SNAPSHOT
+    image: samuel14luis/spring-eureka-server:1.0.0
     ports:
       - "8089:8089"
     restart: always

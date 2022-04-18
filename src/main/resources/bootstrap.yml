@@ -5,5 +5,5 @@ spring:
     config:
       label: main
       uri: ${CONFIG_SERVER_URI}
-      username: ${SECURITY_USERNAME}
-      password: ${SECURITY_PASSWORD}
+      username: ${SECURITY_USERNAME:root}
+      password: ${SECURITY_PASSWORD:1234}
